@@ -1,0 +1,11 @@
+FROM mariadb:latest
+
+ENV MYSQL_ROOT_PASSWORD=passw0rd
+
+ENV MYSQL_DATABASE=rikardo_todo
+
+ENV MYSQL_USER=rikardo
+
+ENV MYSQL_PASSWORD=passw0rd
+
+ENV MYSQL_INITDB_SKIP_TZINFO=1
